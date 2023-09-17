@@ -7,12 +7,13 @@
 
 body {
     background: black;
+    color: white;
   }
 
 #header{
     width: 100%;
     height: 100vh;
-    background-image: url(images/.jpg);
+    background-image: url(images/kevin.jpg);
     background-size: cover;
     background-position: center;
   }
@@ -58,17 +59,29 @@ nav ul li a::after{
     
   }
 
-  nav ul li a:hover::after{
+nav ul li a:hover::after{
     width: 100%;
-    height: 3px;  
+     
   }
 
-  .header-text{
+.header-text {
     margin-top: 20%;
-    font-size: 30px;
+    height: 30px;  
   }
-  
-  .header-text h1{
+
+.header-text h1{
     font-size: 60px;
-  }
+    margin-top: 20px;
+  } 
+
+.header-text h1{
+    font-size: 60px;
+    margin-top: 20px;
+  } 
+
+.header-text h1{
+    color: red;
+  } 
+
+  
   
